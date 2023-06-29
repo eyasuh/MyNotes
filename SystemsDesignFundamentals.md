@@ -26,3 +26,32 @@ This note covers the basics and condensed part of systems design fundamentals. S
 - 53: DNS lookup
 - 80: HTTP
 - 443: HTTPS
+
+## Network Protocols
+
+Network protocol is a rule for communications between two or more machines consisting of types, format, order, and responses of massages.
+
+**IP:**  Internet Protocol. Made of IP packets.
+**Packet:** contains two main sections. 
+ 1. Header: contains info about packet(source, destination, size, version of IPs) 
+ 2. Data: contains the info to be sent(ie. the body)
+
+**TCP** alow ordered delivery of packets.
+
+**HTTP** an implementation of request/response paradigm. 
+
+*Requests:* typically contain
+```
+    host: String (googl.com)
+    port: integer (80 or 443)
+    method: String (GET, PUT, POST, DELETE...)
+    path: path (/home)
+    headers: pair list ("content type": "application/json")
+    body: sequence of bytes
+```
+*Response:* contains 
+```
+    status code: integer (200)
+    headers: pair list 
+    body: bytes
+```
