@@ -55,3 +55,15 @@ Network protocol is a rule for communications between two or more machines consi
     headers: pair list 
     body: bytes
 ```
+
+## Proxies
+
+**Forward Proxy:** A server that is between the client and server. It acts on behalf of the client serving as the facilitator.  
+
+**Reverse proxy:** A server that is between the server and client acting on behalf of the server. (Nginx)
+
+Some use cases of Reverse Proxy:
+- Filtering out requests
+- Taking care of logging
+- Caching
+- Load balancing (distributing loads on different servers)
