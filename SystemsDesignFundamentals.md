@@ -67,3 +67,7 @@ Some use cases of Reverse Proxy:
 - Taking care of logging
 - Caching
 - Load balancing (distributing loads on different servers)
+
+## Load Balancers
+
+**Load Balancer:** Acts as a reverse proxy distributing traffic to multiple servers. It could be found between client and server, or server to database. 
